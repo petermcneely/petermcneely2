@@ -1,0 +1,87 @@
+﻿
+
+#profile {
+    height: 150px;
+    width: calc(150px * .75);
+    margin-bottom: 20px;
+}
+
+#resume {
+    min-width: 570px;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-nav li:hover {
+    background-color: rgb(180, 196, 208);
+}
+
+.navbar-default .navbar-toggle:active,
+.navbar-default .navbar-nav li:active {
+    background-color: rgb(18, 91, 143);
+}
+
+    .navbar-default .navbar-toggle:active .icon-bar {
+        background-color: white;
+    }
+
+.nav.navbar-nav li:active a {
+    color: white;
+}
+
+.about-content {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.post {
+    background-color: rgba(146, 177, 199, 0.15);
+    border-radius: 5px;
+    padding: 2px 10px 5px 10px;
+    margin: 5px 0px 5px 0px;
+}
+
+.jumbotron {
+    background-color: rgba(146, 177, 199, 0.15);
+}
+
+.fa-chevron-right {
+    cursor: pointer;
+}
+
+.rotate,
+.rotate-back,
+.display-post,
+.hide-post {
+    transition: 0.125s ease;
+}
+
+.rotate {
+    transform: rotate(90deg);
+}
+
+.rotate-back {
+    transform: rotate(0deg);
+}
+
+.post-header {
+    cursor: pointer;
+}
+
+.post-body {
+    margin: 10px;
+}
+
+.post .post-header a {
+    text-decoration: none;
+}
+
+.comment {
+    margin: 5px;
+    border-left: solid 1px rgb(180, 196, 208);
+    padding: 10px;
+}
+
+.comment-reply {
+    cursor: pointer;
+}
